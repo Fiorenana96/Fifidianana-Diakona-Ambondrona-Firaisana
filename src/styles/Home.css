@@ -1,0 +1,27 @@
+.home {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+.navbar {
+  float: center;
+  display: block;
+
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.navbar a {
+  display: inline;
+  margin: 20px;
+  color: #0f0155;
+  font-weight: bold;
+  border-color: black;
+}
+
+.logo-image {
+  width: 300px;
+  position: relative;
+  top: 0px;
+  left: 5px;
+}
