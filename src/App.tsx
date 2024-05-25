@@ -18,8 +18,7 @@ const router = Router([
     path: "/",
     element: (
       <Home>
-        {" "}
-        <Outlet />{" "}
+        <Outlet />
       </Home>
     ),
     children: [
