@@ -93,10 +93,17 @@ export function Admin() {
     <div>
       <h1> Liste des candidats </h1>
 
-      <div className="btn">
-        {!hideAddBtn && <button onClick={handelAdd}>+ Ajoutez</button>}
+      <div className="content">
+        {!hideAddBtn && (
+          <button className="btn" onClick={handelAdd}>
+            + Ajoutez
+          </button>
+        )}
         <NavLink to="/voting">
-          <button onClick={handelStartVoting}> Commencez la vote </button>{" "}
+          <button className="btn" onClick={handelStartVoting}>
+            {" "}
+            Commencez la vote{" "}
+          </button>{" "}
         </NavLink>
       </div>
 
@@ -107,14 +114,18 @@ export function Admin() {
               value={newNumber}
               type="number"
               required
+              className="input-number"
               name="numero"
+              placeholder="N°"
               onChange={handelChangeNumber}
             />
             <input
               value={newCandidat}
               type="text"
               required
+              className="input-text"
               name="nom"
+              placeholder="Anarana sy fanampiny..."
               onChange={handelChangeCandidat}
             />
             <button className="btn"> Ajoutez </button>
@@ -131,6 +142,7 @@ export function Admin() {
               value={newNumber}
               type="number"
               required
+              className="input-number"
               name="numero"
               onChange={handelChangeNumber}
             />
@@ -138,6 +150,7 @@ export function Admin() {
               value={newCandidat}
               type="text"
               required
+              className="input-text"
               name="nom"
               onChange={handelChangeCandidat}
             />

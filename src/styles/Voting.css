@@ -1,0 +1,38 @@
+.container {
+  margin: 30px;
+  padding: auto;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background: rgb(36, 36, 36);
+}
+
+.container-bult {
+  text-align: right;
+  padding: 30px;
+  color: #272727;
+  border: 3px solid #444444;
+  border-radius: 20px;
+  background-color: #818181;
+}
+
+.input-bult {
+  padding: auto;
+  margin: 20px;
+  width: 100px;
+  height: 80px;
+  font-size: 45px;
+  border-radius: 10px;
+  box-shadow: 10px;
+  background-color: #494949;
+  color: white;
+  text-align: center;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+h4 {
+  text-align: center;
+  color: hsl(98, 100%, 57%);
+  font-size: 16px;
+}
