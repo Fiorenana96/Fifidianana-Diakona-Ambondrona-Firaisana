@@ -27,14 +27,18 @@ const router = Router([
         element: <Admin />,
       },
       {
-        path: "voting",
-        element: <Voting />,
-      },
-      {
         path: "result",
         element: <Result />,
       },
     ],
+  },
+  {
+    path: "/voting",
+    element: (
+      <Voting>
+        <Outlet />
+      </Voting>
+    ),
   },
 ]);
 

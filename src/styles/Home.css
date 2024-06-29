@@ -1,27 +1,85 @@
-.home {
-  color: red;
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
-}
-.navbar {
-  float: center;
-  display: block;
-
-  padding: 8px;
-  background-color: #dddddd;
+.container {
+  padding: 2rem;
 }
 
-.navbar a {
-  display: inline;
-  margin: 20px;
-  color: #0f0155;
-  font-weight: bold;
-  border-color: black;
+.logoDiv {
+  width: 11%;
 }
 
-.logo-image {
-  width: 300px;
-  position: relative;
-  top: 0px;
-  left: 5px;
+.logoDiv .logoHome {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  text-transform: uppercase;
+  color: #0c0b60;
+  font-weight: 600;
+}
+
+.menuItem {
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  border-bottom: 2px solid #c00202;
+}
+
+.homepage {
+  padding: 45px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 4rem;
+  align-items: center;
+}
+
+.fjkmNameSection {
+  display: flex;
+  align-items: center;
+}
+
+.fjkmLogo {
+  height: 137px;
+}
+
+.titleFjkm {
+  line-height: 0.5rem;
+  text-align: center;
+}
+
+.textHome {
+  font-style: italic;
+}
+
+.inputSaisie {
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.divBtnHameno {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.btnHameno {
+  background-color: #0c0b60;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.btnHameno:hover {
+  background-color: #c00202;
+  border: 1px solid #c00202;
 }
